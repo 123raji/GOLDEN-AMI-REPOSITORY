@@ -1,0 +1,13 @@
+aws ec2 run-instances --image-id ami-0e65ed16c9bf1abc7 --count 1 --iam-instance-profile Name="EC2ROLEFORSSM" --instance-type t2.micro --key-name MYCAKP --security-group-ids sg-2aef025e --subnet-id sub
+net-0c38926a --region us-west-1
+
+
+
+
+
+
+
+
+
+
+
